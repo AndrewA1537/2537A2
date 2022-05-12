@@ -105,6 +105,7 @@ function setup() {
         pokeType = $("#poke_type option:selected").val();
         getPokemonByType(pokeType);
 
+
         insertTypeTimeline(pokeType);
     });
 
