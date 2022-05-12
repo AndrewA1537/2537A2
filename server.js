@@ -54,7 +54,7 @@ app.put('/timeline/create', function(req, res) {
         if (err) {
             console.log("Error " + err);
         } else {
-            console.log("Data from /timeline/getAllEvents: \n" + data);
+            console.log("Data from /timeline/create: \n" + data);
         }
         res.json(data);
     });
@@ -101,7 +101,7 @@ app.get('/timeline/remove/:id', function(req, res) {
         if (err) {
             console.log("Error " + err);
         } else {
-            console.log("Data from /timeline/update/:id: \n" + data);
+            console.log("Data from /timeline/remove/:id: \n" + data);
         }
         res.send("Remove is good");
     });
